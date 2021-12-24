@@ -13,6 +13,8 @@ total_bill = float(input("What was the total bill? "))
 tip = (float(input("10, 12, or 15? ")) / 100) + 1
 num_people = float(input("How many people to split the bill? "))
 
-payment = round((total_bill / num_people) * tip, 2)
+payment = (total_bill / num_people) * tip
+# Round to 2 decimals with 0s on the end if needed
+rounded_payment = "{:.2f}".format(payment) 
 
-print(f"Each person should pay: ${payment}")
+print(f"Each person should pay: ${rounded_payment}")
