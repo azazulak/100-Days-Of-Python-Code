@@ -1,6 +1,6 @@
-## Tip Calculator
+# Tip Calculator
 
-# Instructions
+## Instructions
 
 If the bill was $150.00, split between 5 people, with 12% tip. 
 
@@ -13,7 +13,7 @@ Thus everyone's share of the total bill is $30.00 plus a $3.60 tip.
 Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
 
 
-# Example Input
+## Example Input
 
 ```
 Welcome to the tip calculator!
@@ -22,20 +22,20 @@ How much tip would you like to give? 10, 12, or 15? 12
 How many people to split the bill? 7
 ```
 
-# Example Output
+## Example Output
 
 ```
 Each person should pay: $19.93
 ```
 
 
-# Hint
+## Hint
 
 1. [How to round a number to 2 decimal places in Python](https://www.google.com/search?q=how+to+round+number+to+2+decimal+places+python&oq=how+to+round+number+to+2+decimal)
 2. [How to limit a float to two decimal places in Python](https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python)
 
 
 
-# Solution
+## Solution
 
 [https://replit.com/@appbrewery/tip-calculator-end](https://replit.com/@appbrewery/tip-calculator-end)
